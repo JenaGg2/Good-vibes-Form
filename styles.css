@@ -1,44 +1,9 @@
-* {
-    box-sizing: border-box;
-}
-   
+ body {
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: rosybrown;
+ }
 
-body {
-    text-align:center ;
-    background-color: skyblue;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
-
-header {
-    text-align: center;
-}
-#survey-form {
-    background-color: rgb(168, 83, 83);
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-
-
-
-#name {
-    width: 100%;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-
-
-#Email {
-    width: 100%;
-    padding: 15px;
-    border-radius: 5px;
-
-}
-
-#age {
-    width: 100%;
-    padding: 15px;
-    border-radius: 5px;
-}
+ form {
+     background-color: ;
+ }
