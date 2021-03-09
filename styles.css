@@ -4,6 +4,21 @@
      background-color: rosybrown;
  }
 
- form {
-     background-color: ;
+ .master-div-style {
+     background-color: seashell;
+     max-width: 900px;
+     margin: auto;
+     padding: 20px 10px 10px 10px;
+     border-radius: 10px;
+     line-height: 1.5rem;
+     border: 3px solid rosybrown;
+     border-radius: 3px;
+
+ }
+
+ input {
+     width: 200px;
+     padding: 3px;
+     margin: 5px;
+
  }
