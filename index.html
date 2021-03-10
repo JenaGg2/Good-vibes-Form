@@ -13,20 +13,30 @@
        <div class="top-form">
           <p id="description">Tell us about something positive that happened to you today.</p>
           <form id="survey-form" action="index.html" method="post">
-            <div class="top-form">
+            
             <div class="labels">
              <label for ="name" id="name-label">Name</label>
-             <input type="text" id="name" name="" placeholder="Enter your name">
-            </div>
-            
-            <div class="space">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email"  placeholder="Enter your email address"><br>
             </div>
 
-            <div class="space">
-                <label for="number">On a scale of 1-10 how good was it?</label>
-                <input type="number" id="number" name="number" min="1" max="10" placeholder="Enter a number between 1 and 10"><br>
+            <div class="fields">
+               <input type="text" id="name" class="input-fields" placeholder="Enter your name">
+            </div>
+            
+            <div class="labels">
+                <label for="email" id="email-label">Email
+                </label>
+            </div>
+
+            <div class="fields">
+                <input type="email" id="email" class="input-fields"  placeholder="Enter your email address">
+            </div>
+
+            <div class="labels">
+                <label for="number" id="number-label">On a scale of 1-10 how good was it?</label>
+            </div>
+
+            <div class="fields">
+                <input type="number" class="input-fields" id="number" min="1" max="10" placeholder="Enter a number between 1 and 10">
             </div>
             
             <div class="space">
