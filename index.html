@@ -39,19 +39,26 @@
                 <input type="number" class="input-fields" id="number" min="1" max="10" placeholder="Enter a number between 1 and 10">
             </div>
             
-            <div class="space">
-                <label id="dropdown-label">Where did it happen?</label>
-                    <select id="dropdown">
+            <div class="labels">
+                <label for="dropdown" id="dropdown-label">Where did it happen?</label>
+            </div>
+
+            <div class="fields">
+                    <select id="dropdown" class="dropdown">
                     <option value="home">At home</option>
                     <option value="commute">On my commute</option>
                     <option value="work">At work</option>
                     <option value="street">On the street</option>
                     <option value="other">Other</option>
-                    </div>
+                    
             </select>
-            <br>
+        </div>
 
-            <p>At what time did it happen?</p> 
+           <div class="labels">
+              <label for="time" class="time" id="time">At what time did it happen?</label>
+           </div>
+
+           <div class="fields">
             
             <input type="radio" id="morning">
             <label for="time">Morning</label><br>
