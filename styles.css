@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    
+}
+
+#survey-form {
+    background-color: cadetblue;
+    width: 800px;
+    margin: auto;
+}
